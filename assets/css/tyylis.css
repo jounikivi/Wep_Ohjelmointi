@@ -1,6 +1,13 @@
 header{
   background-color: #b1c3a4;
 }
+
+.eka{
+  background-color: #4a3900;
+  width: 250;
+  height: 500;
+}
+
 .kuva{
   display: block;
   margin-left: auto;
