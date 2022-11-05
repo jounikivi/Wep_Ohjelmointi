@@ -1,11 +1,18 @@
-header{
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.header{
   background-color: #b1c3a4;
 }
 
+
 .eka{
   background-color: #4a3900;
-  width: 250;
-  height: 500;
 }
 
 .kuva{
@@ -23,5 +30,12 @@ h1 {
 }
 h2{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white;
+  color: whitesmoke;
 }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
