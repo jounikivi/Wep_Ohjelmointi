@@ -1,13 +1,11 @@
+header{
+  background-color: #b1c3a4;
+}
 .kuva{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 h1 {
-  text-align: center;
-  font-family: serif;
-  font-weight: normal;
-  text-transform: uppercase;
-  border-bottom: 1px solid #57b1dc;
-  margin-top: 30px;
+  
 }
