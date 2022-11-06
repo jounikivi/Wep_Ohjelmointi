@@ -11,13 +11,16 @@ body{
 }
 
 body {
-  background-color: #ba5e1d;
+  background-color: #4a3900;
   margin: 0 10%;
   font-family: sans-serif;
 } 
 
   .myDiv {
-    background-color: lightblue;
+    background-color: #ba5e1d;
+  }
+  .myDiv2{
+    background-color: #9b9996;
   }
 
  .header{
