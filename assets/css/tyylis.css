@@ -10,11 +10,21 @@ body{
   background-color: #b1c3a4;
 }
 
+body {
+  background-color: #ba5e1d;
+  margin: 0 10%;
+  font-family: sans-serif;
+} 
 
-.eka{
-  background-color: #4a3900;
-}
+  .myDiv {
+    background-color: lightblue;
+  }
 
+ .header{
+  background-color: #b1c3a4;
+  width: auto;
+  height: auto;
+ }
 .kuva{
   display: block;
   margin-left: auto;
@@ -33,9 +43,5 @@ h2{
   color: whitesmoke;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
+
 
