@@ -83,3 +83,17 @@ h2{
 testi a{
   font-size:2em; color: black;
 }
+
+footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-right: .5em;
+}
