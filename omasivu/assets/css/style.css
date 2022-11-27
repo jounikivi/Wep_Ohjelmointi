@@ -46,13 +46,16 @@ nav li a:hover {
 .main {
   margin-left: 160px;
 }
+.main2 {
+  margin-left: 160px;
+}
 
 section {
   background-color: #f2f2f2;
   height: 50vh;
   margin:0;
   padding:2.5rem 4rem;
-}
+} 
 
 section:nth-of-type(2n) {
   background-color: #ccc;
@@ -104,3 +107,4 @@ nav{
 	  text-align: center;
 	  padding-top: 1em
 }
+
