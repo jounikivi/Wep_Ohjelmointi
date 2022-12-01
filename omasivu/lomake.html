@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Harjoitus sivu</title>
+</head>
+<body>
+  <div class="sidebar">
+    <nav class="nav">
+      <ul>
+        <li>
+          <a href="index.html">Koti</a>
+          <a href="index.html">Linkit</a>
+          <a href="index.html">Sanasto</a>
+          <a href="kuvat.html">Kuvat</a>
+          
+        </li>
+      </ul>
+      <img src="assets/kuvat/instagram.svg" alt="">
+      <a href="https://github.com/jounikivi"><img src="assets/kuvat/github-icon.svg" alt=""></a>
+    </nav>
+  </div>
+  <div class="main" id="koti">
+    <section id="koti">
+      <h1>Ääänestys lomake</h1>
+      <form action="">
+        
+        <fieldset>
+          <h3>Äänestä jotain Vaihtoehtoa</h3>
+          <ul>
+            <li><label><input type="radio" name="äänestys" value="">Vaihtoehto</label></li>
+            <li><label><input type="radio" name="äänestys" value="">Vaihtoehto2</label></li>
+            <li><label><input type="radio" name="äänestys" value="">Vaihtoehto3</label></li>
+            <li><label><input type="radio" name="äänestys" value="">Vaihtoehto4</label></li>
+            <li><label><input type="radio" name="äänestys" value="">Vaihtoehto5</label></li>
+          </ul>
+          <h3>Valitse numero 1-100 väliltä liikutamalla palkia</h3>
+          <input type="range" value="0" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+            <output></output>
+            <br>
+            <h3>Anna päivämäärä</h3>
+            <label for="start">Anna päivä</label>
+            <input type="date" id="start" name="trip-start" value="" min="" max="">
+        </fieldset>
+        <input type="submit" value="Lähetä">
+            
+        
+          
+      </form>
+    </section>
+  </div>
+
+ 
+ 
+</body>
+</html>
