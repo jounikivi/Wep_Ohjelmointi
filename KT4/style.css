@@ -1,0 +1,7 @@
+body{
+  background-color: darkgray;
+}
+
+ol, ul { 
+  list-style-type: none;
+   }
