@@ -95,6 +95,14 @@ p.more {
   font-family: verdana, sans-serif;
   text-transform: uppercase;
   font-size: 0.8em;
+  clear: left;
+}
+main img {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+img[src*="muffin"] {
+  margin-left: 50px;
 }
 
 /* aside "hours" styles */
@@ -114,11 +122,11 @@ footer {
   padding: 1em;
 }
 h2 {
-  font-family: "Stint Ultra Expanded", Geprgia, serif;
+  font-family: "Stint Ultra Expanded", Georgia, serif;
 }
 .day {
   color: #783f27;
   font-family: verdana, sans-serif;
   font-size: 0.8em;
   text-transform: uppercase;
-} /* CSS Document */
+}
